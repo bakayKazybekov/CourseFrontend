@@ -114,7 +114,7 @@ for (let i = 0; i < weekArray2.length; i++) {
   i === 0 ? console.log(weekArray2[i]) : i === 1 ? console.log(weekArray2[i] + ' как сделать текст курсивным') : i === 2 || i === 3 || i === 4 || i === 5 || i === 6 ? console.log(weekArray2[i]) : console.log('Error')
 }
 
-
+ 
 let n = 1000;
 let numIter = 0;
 
