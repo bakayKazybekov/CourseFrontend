@@ -2,25 +2,13 @@ let number1 = 0;
 let number2 = -1;
 let number3 = 4;
 
-if (number3 > number1 && number1 > number2) {
-  console.log(number3, number1, number2);
-} else if (number3 > number2 && number2 > number1) {
-  console.log(number3, number2, number1);
-} else if (number2 > number3 && number3 > number1) {
-  console.log(number2, number1, number3);
-} else if (number2 > number1 && number1 > number3) {
-  console.log(number2, number3, number1);
-} else if (number1 > number2 && number2 > number3) {
-  console.log(number1, number2, number3);
-} else if (number1 > number3 && number3 > number2) {
-  console.log(number1, number3, number2);
-}
+console.log(number3, number1, number2)
 
 
 let num1 = prompt('Введите первое число');
 let num2 = prompt('Введите второе число');
 
-num1 > num2 ? console.log(num1) : num2 > num1 ? console.log(num2) : console.log('Error');
+num1 > num2 ? console.log(num1) : console.log(num2);
 
 
 let num3 = -6;
@@ -40,6 +28,7 @@ if (num3 > num4 && num3 > num5 && num3 > num6 && num3 > num7) {
 } else if (num7 > num4 && num7 > num5 && num7 > num6 && num7 > num3) {
   console.log(num7);
 }
+// 'num5 will never be greater than num3' не понял(
 
 
 let x = 10;
@@ -52,7 +41,7 @@ let checkNumber = prompt('Введите число');
 
 if (checkNumber % 2 === 0) {
   console.log("Число " + checkNumber + " четное")
-} else if (checkNumber % 2 === 1) {
+} else {
   console.log("Число " + checkNumber + " нечетное")
 }
 
