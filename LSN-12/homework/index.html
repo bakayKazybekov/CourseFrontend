@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework12</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="root">
+    <div class="wrapper">
+        <span>Calculator</span>
+        <div class="input">
+            <label for="first_value">First value</label>
+            <input id="first_value" type="number">
+        </div>
+        <div class="input">
+            <label for="second_value">Second value</label>
+            <input id="second_value" type="number">
+        </div>
+        <div class="error_section">
+            <span id="error"></span>
+            <button id="ok" class="action ok_btn">ok</button>
+        </div>
+        <div class="button_wrapper">
+            <button class="action" onclick=actionValues(plus)>+</button>
+            <button class="action" onclick=actionValues(minus)>-</button>
+            <button class="action" onclick=actionValues(divide)>/</button>
+            <button class="action" onclick=actionValues(multiply)>*</button>
+        </div>
+        <div class="button_wrapper">
+            <button id="id" class="button" onclick=clearInputs()>Clear</button>
+        </div>
+        <input placeholder="result" id="result">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
