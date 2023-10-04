@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 1
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 2
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 3
+    },
+    {
+      "param1": "new param1",
+      "param2": "new param2",
+      "param3": "new param3",
+      "id": 4
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 5
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 6
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 7
+    },
+    {
+      "value": "Value",
+      "isActive": true,
+      "firstName": null,
+      "price": 123,
+      "arr": [
+        1,
+        2,
+        3
+      ],
+      "id": 8
+    }
+  ],
+  "users": []
+}
