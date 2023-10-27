@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="itemDescribe/itemDescribe.css">
+  <title>Exam</title>
+</head>
+<body>
+  <div class="main">
+    
+    <header>
+      <div class="container">
+  
+        <div class="wrapper">
+          <div class="navigate">
+            <nav>
+              <ul class="nav">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="./shopCart/shopCart.html">Корзина</a></li>
+              </ul>
+            </nav>
+          </div>
+  
+          <div class="search">
+            <input placeholder="Введите поисковик" type="text" class="search_input">
+            <button class="search_btn"><img src="https://cdn-icons-png.flaticon.com/512/54/54481.png"></button>
+          </div>
+  
+          <div class="sorting">
+            <div class="price_sort">
+              <p>Сортировать по:</p>
+              <button class="sorting_expensive">Сначала дорогие</button>
+              <button class="sorting_cheap">Сначала дешёвые</button>
+            </div>
+            <div class="date_sort">
+              <p>Дате добавления:</p>
+              <button class="sorting_new">Сначала новые</button>
+              <button class="sorting_old">Сначала старые</button>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </header>
+  
+    <div class="items"></div>
+  
+    <div class="button">
+      <a href="createItem/createItem.html"><button class="create_btn">Создать товар</button></a>
+    </div>
+
+  </div>
+
+
+  <!-- Описание товара -->
+  <div class="item_describe_html">
+
+    <header>
+      <div class="container">
+  
+        <div class="item_describe_wrapper">
+          <div class="navigate">
+            <nav>
+              <ul class="nav">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="shopCart/shopCart.html">Корзина</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <button class="back_btn">Вернуться</button>
+        </div>
+      </div>
+    </header>
+  
+    <div class="item_describe">
+      <h3 class="item_describe_title"></h3>
+      <div class="item_describe_content">
+        <div class="item_describe_img"></div>
+        <div class="item_describe_info">
+          <h4 class="item_describe_info_title">Описание</h4>
+          <p class="item_describe_info_text"></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Редактирование товара -->
+  <div class="create_item">
+
+    <div class="container">
+      <div class="navigate">
+        <nav>
+          <ul class="nav">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="shopCart/shopCart.html">Корзина</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="create_item_wrapper">
+        <h2 class="create_item_title">Редактирование товара</h2>
+        <div class="item_name">
+          <h4 class="name">Название</h4>
+          <input id="name_input" type="text" placeholder="Введите название товара">
+        </div>
+        <div class="item_descrition">
+          <h4 class="description">Описание</h4>
+          <input id="description_input" type="text" placeholder="Введите описание товара">
+        </div>
+        <div class="item_price">
+          <h4 class="price">Цена:</h4>
+          <input type="number" id="price_input" placeholder="Введите цену товара">
+        </div>
+        <div class="create_item_img">
+          <h4 class="img">Фотография</h4>
+          <input type="text" id="img_input" placeholder="Вставьте ссылку на изображение">
+        </div>
+        <div class="buttons_wrapper">
+          <button class="close_btn">Отмена</button>
+          <button class="save_btn">Сохранить</button>
+        </div>
+    </div>
+    
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

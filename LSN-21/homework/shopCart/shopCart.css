@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2, h4 {
+  font-weight: 400;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 452px;
+  margin: 30px 50px 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.navigate {
+  background-color: #EEF2D1;
+  border-radius: 15px;
+}
+
+.nav {
+  padding: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav li a {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.shop_cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.item {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item_img {
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.item_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.item button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.delete_btn {
+  color: rgb(241, 10, 10);
+}
+
+.shop_cart_inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reset_btn {
+  font-size: 14px;
+  font-weight: 400;
+  background: inherit;
+  border: none;
+  color: rgb(233, 18, 18);
+  align-self: flex-end;
+  margin-right: 20px;
+  cursor: pointer;
+}

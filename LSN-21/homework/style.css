@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2, h4 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.item_describe_html, .create_item {
+  display: none;
+}
+
+.container {
+  margin: 30px 50px 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.navigate {
+  width: 452px;
+  background-color: #EEF2D1;
+  border-radius: 15px;
+}
+
+.nav {
+  padding: 25px;
+  display: flex;
+  gap: 30px;
+}
+
+.nav li {
+  list-style-type: none;
+}
+
+.nav li a {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.sorting {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.sorting button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  color: rgb(18, 18, 165);
+}
+
+.search_input {
+  width: 33vw;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(94, 93, 93, 0.20);
+  position: absolute;
+}
+
+
+.search_btn {
+  position: relative;
+  top: 10px;
+  left: 33%;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.search_btn img {
+  width: 17px;
+}
+
+.sorting div {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.item {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item_content, .item_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item_img {
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.item_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.item button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.edit_btn {
+  color: rgb(81, 190, 8);
+}
+
+.add_shop-cart {
+  color: rgb(13, 61, 234)
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.create_btn {
+  padding: 10px 30px;
+  background-color: #EEF2D1;
+  border: none;
+  border-radius: 15px;
+  margin: 40px 0;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.back_btn {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+
+input {
+  width: 33vw;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(94, 93, 93, 0.20);
+}
+
+
+.create_item_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.create_item_wrapper div {
+  text-align: center;
+}
+
+.create_item_wrapper div h4 {
+  margin-bottom: 20px;
+}
+
+.buttons_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.buttons_wrapper button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  margin: 40px 0;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.save_btn {
+  background-color: #EEF2D1;
+}
+
+.close_btn {
+  background-color: #DAD1F2;
+}
