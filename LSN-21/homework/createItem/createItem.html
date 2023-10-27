@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="createItemCss.css">
+  <title>CreateItem</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navigate">
+      <nav>
+        <ul class="nav">
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="../shopCart/shopCart.html">Корзина</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="create_item_wrapper">
+      <h2 class="create_item_title">Создание товара</h2>
+      <div class="item_name">
+        <h4 class="name">Название</h4>
+        <input id="name_input" type="text" placeholder="Введите название товара">
+      </div>
+      <div class="item_descrition">
+        <h4 class="description">Описание</h4>
+        <input id="description_input" type="text" placeholder="Введите описание товара">
+      </div>
+      <div class="item_price">
+        <h4 class="price">Цена:</h4>
+        <input type="number" id="price_input" placeholder="Введите цену товара">
+      </div>
+      <div class="create_item_img">
+        <h4 class="img">Фотография</h4>
+        <input type="text" id="img_input" placeholder="Вставьте ссылку на изображение">
+      </div>
+      <div class="buttons_wrapper">
+        <a href="../index.html"><button class="close_btn">Отмена</button></a>
+        <button class="save_btn">Сохранить</button>
+      </div>
+  </div>
+  
+
+  <script src="createItem.js"></script>
+</body>
+</html>
